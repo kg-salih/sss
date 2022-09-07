@@ -1,0 +1,175 @@
+<div class="SikcaSorunlansorular">
+<div class="SikcaSorunlansorular">
+<h1 class="SikcaSorunlansorularTitle" style="text-align: center;">Sık Sorulan Sorular</h1>
+
+<ul>
+	<li>
+	<h2 class="SSSBaslik"><a href="javascript:;">Soru Buraya Gelecek</a></h2>
+
+	<div class="SSSAciklama">
+	<ul>
+		<li>Cevap Buraya Gelecek</li>
+	</ul>
+	</div>
+	</li>
+	<li>
+	<h2 class="SSSBaslik"><a href="javascript:;">Soru Buraya Gelecek</a></h2>
+
+	<div class="SSSAciklama">
+	<ul>
+		<li>Cevap Buraya Gelecek</li>
+	</ul>
+	</div>
+	</li>
+	<li>
+	<h2 class="SSSBaslik"><a href="javascript:;">Soru Buraya Gelecek</a></h2>
+
+	<div class="SSSAciklama">
+	<ul>
+		<li>Cevap Buraya Gelecek</li>
+	</ul>
+	</div>
+	</li>
+	<li>
+	<h2 class="SSSBaslik"><a href="javascript:;">Soru Buraya Gelecek</a></h2>
+
+	<div class="SSSAciklama">
+	<ul>
+		<li>Cevap Buraya Gelecek</li>
+	</ul>
+	</div>
+	</li>
+	<li>
+	<h2 class="SSSBaslik"><a href="javascript:;">Soru Buraya Gelecek</a></h2>
+
+	<div class="SSSAciklama">
+	<ul>
+		<li>Cevap Buraya Gelecek</li>
+	</ul>
+	</div>
+	</li>
+	<li>
+	<h2 class="SSSBaslik"><a href="javascript:;">Soru Buraya Gelecek</a></h2>
+
+	<div class="SSSAciklama">
+	<ul>
+		<li>Cevap Buraya Gelecek</li>
+	</ul>
+	</div>
+	</li>
+	<li>
+	<h2 class="SSSBaslik"><a href="javascript:;">Soru Buraya Gelecek</a></h2>
+
+	<div class="SSSAciklama">
+	<ul>
+		<li>Cevap Buraya Gelecek</li>
+	</ul>
+	</div>
+	</li>
+	<li>
+	<h2 class="SSSBaslik"><a href="javascript:;">Soru Buraya Gelecek</a></h2>
+
+	<div class="SSSAciklama">
+	<ul>
+		<li>Cevap Buraya Gelecek</li>
+	</ul>
+	</div>
+	</li>
+</ul>
+</div>
+</div>
+<script>
+    
+        $('.SSSBaslik').click(function (event) {
+            if ($(this).closest('li').hasClass('active')) {
+                $(this).closest('li').removeClass('active');
+            } else {
+                $('.SikcaSorunlansorular li').removeClass('active');
+                $(this).closest('li').addClass('active');
+            }
+        });
+    </script>
+<style type="text/css">.SikcaSorunlansorular {
+            margin: 10px auto;
+            max-width: 1180px;
+        }
+    
+        .SikcaSorunlansorularTitle {
+            float: left;
+            width: 100%;
+            font-size: 20px;
+            font-weight: 700;
+            color: black;
+            margin-bottom: 15px;
+        }
+    
+        .SikcaSorunlansorular ul li {
+            overflow: hidden;
+            float: left;
+            width: 100%;
+            margin-bottom: 5px !important;
+        }
+    
+        .SikcaSorunlansorular .SSSBaslik {
+            background-color: transparent;
+            float: left;
+            width: 100%;
+            position: relative;
+        }
+    
+        .SikcaSorunlansorular .SSSBaslik a {
+            display: block;
+            float: left;
+            width: 100%;
+            padding: 7px;
+color:black;
+            font-size: 17px;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            position: relative;
+            z-index: 9;
+            border-bottom: 2px solid #eee;
+        }
+    
+        .SikcaSorunlansorular .SSSBaslik a:after {
+            content: "\f078";
+            font-family: fontawesome;
+            color: black;
+            font-size: 16px;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            z-index: 2;
+        }
+    
+        .SikcaSorunlansorular .active .SSSBaslik a:after {
+            content: "\f077";
+        }
+    
+        .SikcaSorunlansorular .SSSAciklama {
+            height: 0;
+            transition: ease-in-out .2s all;
+            float: left;
+            width: 100%;
+            padding: 15px;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+    
+        .SikcaSorunlansorular .active .SSSAciklama {
+            height: auto;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+    
+        .SikcaSorunlansorular .SSSAciklama ul {
+            list-style: disc;
+            padding-left: 20px;
+        }
+    
+        .SikcaSorunlansorular .SSSAciklama ul li {
+            overflow: initial;
+font-weight:300;
+            font-size: 17px;
+        }
+</style>
